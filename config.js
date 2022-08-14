@@ -134,7 +134,7 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = 'LUCK|Lucky-Cv'
+global.wm = 'LUCK | Lucky-Cv'
 global.igfg = 'lucky ᵇᵒᵗ⁻ᴹᴰ'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
