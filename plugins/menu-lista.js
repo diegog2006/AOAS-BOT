@@ -116,10 +116,10 @@ function ucapan() {
   if (time >= 11) {
     res = "🏙️Buenas Tardes|Good Afternoon🌤️"
   }
-  if (time >= 15) {
+  if (time >= 13) {
     res = "🌆Buenas tardes|Good Afternoon🌥️"
   }
-  if (time >= 17) {
+  if (time >= 21) {
     res = "🌃Buenas noches|Good Evening💫"
   }
   return res
