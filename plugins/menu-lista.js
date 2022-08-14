@@ -108,7 +108,7 @@ function clockString(ms) {
 }
 
 function ucapan() {
-  const time = moment.tz('America/Los_Angeles').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
+  const time = moment.tz('Europa/España').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
   let res = "🌉Buenas madrugadas|Good early morning🌠"
   if (time >= 4) {
     res = "🌇Buenos Días|Good Morning⛅"
