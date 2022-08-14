@@ -109,18 +109,18 @@ function clockString(ms) {
 
 function ucapan() {
   const time = moment.tz('Europa/España').format('HH')  //America/Los_Angeles  Asia/Jakarta   America/Toronto
-  let res = "🌉Buenas madrugadas|Good early morning🌠"
+  let res = "Buenas madrugadas|Good early morning🌠"
   if (time >= 4) {
-    res = "🌇Buenos Días|Good Morning⛅"
+    res = "Buenos Días|Good Morning⛅"
   }
   if (time >= 11) {
-    res = "🏙️Buenas Tardes|Good Afternoon🌤️"
+    res = "Buenas Tardes|Good Afternoon🌤️"
   }
   if (time >= 21) {
-    res = "🌆Buenas tardes|Good Afternoon🌥️"
+    res = "Buenas tardes|Good Afternoon🌥️"
   }
   if (time >= 21) {
-    res = "🌃Buenas noches|Good Evening💫"
+    res = "Buenas noches|Good Evening💫"
   }
   return res
 }
