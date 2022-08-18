@@ -8,7 +8,7 @@ try {
 let vn = './media/ja.mp3'
 let pp = 'https://i.imgur.com/lkch77g.jpeg'
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
-let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { exp, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
 let name = await conn.getName(m.sender)
 let d = new Date(new Date + 3600000)
@@ -55,7 +55,7 @@ maxexp: xp,
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
-level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+level, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
 readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
@@ -109,7 +109,6 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(juegosdelgrupo|juegosdelgrupo\?)$/i
 handler.exp = 50
-handler.limit = 1
 handler.fail = null
 export default handler
 
