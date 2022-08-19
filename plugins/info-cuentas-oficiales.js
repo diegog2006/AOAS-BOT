@@ -1,4 +1,4 @@
-let media = 'https://i.imgur.com/NRv6b71.jpeg'
+/*let media = 'https://i.imgur.com/NRv6b71.jpeg'
 let handler = async (m, { conn, command }) => {
 let str = `
 ┌──「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─
@@ -25,3 +25,4 @@ handler.command = /^cuentasoficiales|cuentasoficiales\$/i
 handler.exp = 35
 handler.limit = 1
 export default handler
+*/
