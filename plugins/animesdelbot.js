@@ -60,66 +60,66 @@ readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 let str = `
-┌──「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─
-├❏ ๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}💖✨ 
+┌──「𓈃ּ 𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ」─
+├❏ ๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}
 ├❏ 📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
 ├❏ 🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ├❏ 📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「⛩️𝐀𝐍𝐈𝐌𝐄𝐒」─
-├❏🕋${usedPrefix}hades
-├❏🎎${usedPrefix}cristianoronaldo
-├❏🌃${usedPrefix}messi
-├❏💒${usedPrefix}meme
-├❏⛪${usedPrefix}itzy
-├❏🏰${usedPrefix}blackpink
-├❏🕌${usedPrefix}kpop <blackpink / exo / bts
-├❏🎑${usedPrefix}lolivid
-├❏⛩️${usedPrefix}loli
-├❏🎎${usedPrefix}navidad
-├❏🌃${usedPrefix}ppcouple
-├❏💒${usedPrefix}neko
-├❏⛪${usedPrefix}waifu
-├❏🏰${usedPrefix}akira
-├❏🕌${usedPrefix}akiyama
-├❏🎑${usedPrefix}anna
-├❏⛩️${usedPrefix}asuna
-├❏🎎${usedPrefix}ayuzawa
-├❏🌃${usedPrefix}boruto
-├❏💒${usedPrefix}chiho
-├❏⛪${usedPrefix}chitoge
-├❏🏰${usedPrefix}deidara
-├❏🕌${usedPrefix}erza
-├❏🎑${usedPrefix}elaina
-├❏⛩️${usedPrefix}eba
-├❏🎎${usedPrefix}emilia
-├❏🌃${usedPrefix}hestia
-├❏💒${usedPrefix}hinata
-├❏⛪${usedPrefix}inori
-├❏🏰${usedPrefix}isuzu
-├❏🕌${usedPrefix}itachi
-├❏🎑${usedPrefix}itori
-├❏⛩️${usedPrefix}kaga
-├❏🎎${usedPrefix}kagura
-├❏🌃${usedPrefix}kaori
-├❏💒${usedPrefix}keneki
-├❏⛪${usedPrefix}kotori
-├❏🏰${usedPrefix}kurumi
-├❏🕌${usedPrefix}madara
-├❏🎑${usedPrefix}mikasa
-├❏⛩️${usedPrefix}miku
-├❏🎎${usedPrefix}minato
-├❏🌃${usedPrefix}naruto
-├❏💒${usedPrefix}nezuko
-├❏⛪${usedPrefix}sagiri
-├❏⛪${usedPrefix}sasuke
-├❏🎑${usedPrefix}sakura
-├❏🌃${usedPrefix}cosplay
-├❏💒${usedPrefix}helaila
-├❏⛪${usedPrefix}gawrgura
+┌──「𝐀𝐍𝐈𝐌𝐄𝐒」─
+├❏ ${usedPrefix}hades
+├❏ ${usedPrefix}cristianoronaldo
+├❏ ${usedPrefix}messi
+├❏ ${usedPrefix}meme
+├❏ ${usedPrefix}itzy
+├❏ ${usedPrefix}blackpink
+├❏ ${usedPrefix}kpop <blackpink / exo / bts
+├❏ ${usedPrefix}lolivid
+├❏ ${usedPrefix}loli
+├❏ ${usedPrefix}navidad
+├❏ ${usedPrefix}ppcouple
+├❏ ${usedPrefix}neko
+├❏ ${usedPrefix}waifu
+├❏ ${usedPrefix}akira
+├❏ ${usedPrefix}akiyama
+├❏ ${usedPrefix}anna
+├❏ ${usedPrefix}asuna
+├❏ ${usedPrefix}ayuzawa
+├❏ ${usedPrefix}boruto
+├❏ ${usedPrefix}chiho
+├❏ ${usedPrefix}chitoge
+├❏ ${usedPrefix}deidara
+├❏ ${usedPrefix}erza
+├❏ ${usedPrefix}elaina
+├❏ ${usedPrefix}eba
+├❏ ${usedPrefix}emilia
+├❏ ${usedPrefix}hestia
+├❏ ${usedPrefix}hinata
+├❏ ${usedPrefix}inori
+├❏ ${usedPrefix}isuzu
+├❏ ${usedPrefix}itachi
+├❏ ${usedPrefix}itori
+├❏ ${usedPrefix}kaga
+├❏ ${usedPrefix}kagura
+├❏ ${usedPrefix}kaori
+├❏ ${usedPrefix}keneki
+├❏ ${usedPrefix}kotori
+├❏ ${usedPrefix}kurumi
+├❏ ${usedPrefix}madara
+├❏ ${usedPrefix}mikasa
+├❏ ${usedPrefix}miku
+├❏ ${usedPrefix}minato
+├❏ ${usedPrefix}naruto
+├❏ ${usedPrefix}nezuko
+├❏ ${usedPrefix}sagiri
+├❏ ${usedPrefix}sasuke
+├❏ ${usedPrefix}sakura
+├❏ ${usedPrefix}cosplay
+├❏ ${usedPrefix}helaila
+├❏ ${usedPrefix}gawrgura 
 └────ׂ─ׂ─ׂ─ׂ───
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Lucky-Cv/luck', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝐌𝐄𝐍𝐔', '/menu'],
 ['𝐄𝐒𝐓𝐀𝐃𝐎','/estado'],
 
