@@ -8,7 +8,7 @@ try {
 let vn = './media/ja.mp3'
 let pp = 'https://i.imgur.com/lkch77g.jpeg'
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
-let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { exp, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
 let name = await conn.getName(m.sender)
 let d = new Date(new Date + 3600000)
@@ -55,32 +55,32 @@ maxexp: xp,
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
-level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+level, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
 readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 let str = `
-┌──「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─
-├❏ ๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}💖✨ 
+┌──「𓈃ּ 𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ」─
+├❏ ๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}
 ├❏ 📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
 ├❏ 🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ├❏ 📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「📌𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐒𝐈 𝐁𝐎𝐓」─
-├❏❗${usedPrefix}terminos y condiciones y privacidad
-├❏🔺${usedPrefix}grupos
-├❏🔻${usedPrefix}cuentaserikabot
-├❏🔺${usedPrefix}estado
-├❏🔻${usedPrefix}infobot
-├❏🔺${usedPrefix}donar
-├❏🔻${usedPrefix}listagrupos
-├❏🔺${usedPrefix}velocidad
-├❏🔻${usedPrefix}owner
-├❏🔺Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-├❏❗${usedPrefix}join enlace / link / url>
+┌──「𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐒𝐈 𝐁𝐎𝐓」─
+├❏ ${usedPrefix}terminos y condiciones y privacidad
+├❏ ${usedPrefix}grupos
+├❏ ${usedPrefix}cuentaserikabot
+├❏ ${usedPrefix}estado
+├❏ ${usedPrefix}infobot
+├❏ ${usedPrefix}donar
+├❏ ${usedPrefix}listagrupos
+├❏ ${usedPrefix}velocidad
+├❏ ${usedPrefix}owner
+├❏ Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+├❏ ${usedPrefix}join enlace / link / url>
 └────ׂ─ׂ─ׂ─ׂ───
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Lucky-Cv/luck', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝐌𝐄𝐍𝐔', '/menu'],
 ['𝐄𝐒𝐓𝐀𝐃𝐎','/estado'],
 
@@ -97,7 +97,6 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(informaciónbot|informaciónbot\?)$/i
 handler.exp = 50
-handler.limit = 1
 handler.fail = null
 export default handler
 
