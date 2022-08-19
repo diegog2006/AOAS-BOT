@@ -8,7 +8,7 @@ try {
 let vn = './media/naa.mp3'
 let pp = 'https://i.imgur.com/lkch77g.jpeg'
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
-let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { exp, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
 let name = await conn.getName(m.sender)
 let d = new Date(new Date + 3600000)
@@ -55,31 +55,30 @@ maxexp: xp,
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
-level, limit, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+level, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
 readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 let str = `
-┌──「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」─
+┌──「𓈃ּ 𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ」─
 ├❏ ๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}
 ├❏ 📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}
 ├❏ 🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ├❏ 📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐒𝐈 𝐁𝐎𝐓*」─
+┌──「𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐒𝐈 𝐁𝐎𝐓」─
 ├❏ ${usedPrefix}terminos y condiciones y privacidad
 ├❏ ${usedPrefix}grupos
 ├❏ ${usedPrefix}cuentaserikabot
 ├❏ ${usedPrefix}estado
 ├❏ ${usedPrefix}infobot
-├❏ ${usedPrefix}donar
 ├❏ ${usedPrefix}listagrupos
 ├❏ ${usedPrefix}velocidad
 ├❏ ${usedPrefix}owner
 ├❏ Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ├❏ ${usedPrefix}join enlace / link / url>
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐑𝐏𝐆*」─
+┌──「𝐑𝐏𝐆」─
 ├❏ ${usedPrefix}balance
 ├❏ ${usedPrefix}claim
 ├❏ ${usedPrefix}top
@@ -94,7 +93,7 @@ let str = `
 ├❏ ${usedPrefix}verificar
 ├❏ ${usedPrefix}unreg <numero de serie>
 └────ׂ─ׂ─ׂ─ׂ───
-┌─「*𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*」
+┌─「𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑」
 ├❏ ${usedPrefix}facebook <enlace / link / url
 ├❏ ${usedPrefix}instagram <enlace / link / url
 ├❏ ${usedPrefix}mediafire <enlace / link / url
@@ -115,7 +114,7 @@ let str = `
 ├❏ ${usedPrefix}igstalk <nombre de usuario
 ├❏ ${usedPrefix}tiktokstalk <nombre de usuario
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐀𝐍𝐈𝐌𝐄𝐒*」─
+┌──「𝐀𝐍𝐈𝐌𝐄𝐒」─
 ├❏ .hades
 ├❏ ${usedPrefix}cristianoronaldo
 ├❏ ${usedPrefix}messi
@@ -165,7 +164,7 @@ let str = `
 ├❏ ${usedPrefix}sakura
 ├❏ ${usedPrefix}cosplay
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐏𝐄𝐍𝐆𝐔𝐁𝐀𝐇 𝐒𝐔𝐀𝐑𝐀*」
+┌──「𝐏𝐄𝐍𝐆𝐔𝐁𝐀𝐇 𝐒𝐔𝐀𝐑𝐀」
 ├❏ ${usedPrefix}bass
 ├❏ ${usedPrefix}blown
 ├❏ ${usedPrefix}deep
@@ -179,7 +178,7 @@ let str = `
 ├❏ ${usedPrefix}smooth
 ├❏ ${usedPrefix}tupai_
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐒𝐓𝐈𝐂𝐊𝐄𝐑*」─
+┌──「𝐒𝐓𝐈𝐂𝐊𝐄𝐑」─
 ├❏ ${usedPrefix}emojimix <emoji 1>&<emoji 2
 ├❏ ${usedPrefix}attp <texto
 ├❏ ${usedPrefix}ttp <texto
@@ -191,7 +190,7 @@ let str = `
 ├❏ ${usedPrefix}stickermarker <efecto> <responder a imagen
 ├❏ ${usedPrefix}stickerfilter <efecto> <responder a imagen
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐐𝐔𝐎𝐓𝐄𝐒*」─
+┌──「𝐐𝐔𝐎𝐓𝐄𝐒」─
 ├❏ ${usedPrefix}logos <efecto <texto
 ├❏ ${usedPrefix}simpcard <@tag
 ├❏ ${usedPrefix}hornycard <@tag
@@ -201,7 +200,7 @@ let str = `
 ├❏ ${usedPrefix}pixelar
 ├❏ ${usedPrefix}blur
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒*」
+┌──「𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒」
 ├❏ ${usedPrefix}toimg <responde a un sticker
 ├❏ ${usedPrefix}tomp3 *<responde a un video / nota de voz
 ├❏ ${usedPrefix}toptt <responde a un video / audio
@@ -209,14 +208,12 @@ let str = `
 ├❏ ${usedPrefix}tourl <responde a un video / imagen / audio
 ├❏ ${usedPrefix}tts es <texto
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐆𝐑𝐎𝐔𝐏*」─
+┌──「𝐆𝐑𝐎𝐔𝐏」─
 ├❏ ${usedPrefix}add <numero
 ├❏ ${usedPrefix}kick <@tag
 ├❏ ${usedPrefix}grupo <abrir / cerrar
 ├❏ ${usedPrefix}promote <@tag
 ├❏ ${usedPrefix}demote <@tag
-├❏ ${usedPrefix}banchat
-├❏ ${usedPrefix}unbanchat
 ├❏ admins *<texto>_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ├❏ ${usedPrefix}demote <@tag
 ├❏ ${usedPrefix}infogroup
@@ -229,10 +226,10 @@ let str = `
 ├❏ ${usedPrefix}hidetag <texto
 ├❏ ${usedPrefix}simular <welcome / bye / promote / demote>
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐆𝐈𝐓𝐇𝐔𝐁*」─
+┌──「𝐆𝐈𝐓𝐇𝐔𝐁」─
 ├❏/instalarbot
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐈𝐌𝐀𝐆𝐄*」─
+┌──「𝐈𝐌𝐀𝐆𝐄」─
 ├❏ ${usedPrefix}xnxxsearch <texto
 ├❏ ${usedPrefix}animeinfo <texto
 ├❏ ${usedPrefix}google <texto
@@ -250,7 +247,7 @@ let str = `
 ├❏ ${usedPrefix}uapkpro <texto
 └────ׂ─ׂ─ׂ─ׂ───
 
-┌「*𝐏𝐑𝐄𝐍𝐃𝐄𝐑 𝐘 𝐀𝐏𝐀𝐆𝐀𝐑* 」
+┌「𝐏𝐑𝐄𝐍𝐃𝐄𝐑 𝐘 𝐀𝐏𝐀𝐆𝐀𝐑」
 ├❏ ${usedPrefix}enable welcome
 ├❏ ${usedPrefix}disable welcome
 ├❏ ${usedPrefix}enable modohorny
@@ -266,7 +263,7 @@ let str = `
 ├❏ ${usedPrefix}enable autosticker
 ├❏ ${usedPrefix}disable autosticker
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「🎤𝐀𝐔𝐃𝐈𝐎𝐒」─
+┌──「𝐀𝐔𝐃𝐈𝐎𝐒」─
 ├❏ Noche de paz
 ├❏ Miau
 ├❏ Buenos dias
@@ -436,7 +433,7 @@ let str = `
 ├❏ UwU
 ├❏ Gracias bot
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐆𝐀𝐌𝐄*」─
+┌──「𝐆𝐀𝐌𝐄」─
 ├❏ ${usedPrefix}mates <noob / easy / medium / hard / extreme /impossible /impossible2>
 ├❏ ${usedPrefix}ppt <papel / tijera /piedra
 ├❏ ${usedPrefix}prostituto <nombre / @tag
@@ -461,7 +458,7 @@ let str = `
 ├❏ ${usedPrefix}verdad
 ├❏ ${usedPrefix}reto
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐎𝐖𝐍𝐄𝐑 𝐁𝐎𝐓*」─
+┌──「𝐎𝐖𝐍𝐄𝐑 𝐁𝐎𝐓」─
 ├❏ ${usedPrefix}cajafuerte
 ├❏ ${usedPrefix}enable restrict
 ├❏ ${usedPrefix}disable restrict
@@ -473,8 +470,6 @@ let str = `
 ├❏ ${usedPrefix}disable pconly
 ├❏ ${usedPrefix}enable gconly
 ├❏ ${usedPrefix}disable gconly
-├❏ ${usedPrefix}banchat2
-├❏ ${usedPrefix}unbanchat2
 ├❏ ${usedPrefix}banuser <@tag>
 ├❏ ${usedPrefix}unbanuser <@tag
 ├❏ ${usedPrefix}banuser <@tag
@@ -490,7 +485,7 @@ let str = `
 ├❏ ${usedPrefix}añadirdiamantes <@tag> <cantidad
 ├❏ ${usedPrefix}añadirxp <@tag> <cantidad
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐇𝐄𝐍𝐓𝐀𝐈*」─
+┌──「𝐇𝐄𝐍𝐓𝐀𝐈」─
 ├❏ ${usedPrefix}pack
 ├❏ ${usedPrefix}pack2
 ├❏ ${usedPrefix}pack3
@@ -526,7 +521,7 @@ let str = `
 ├❏ ${usedPrefix}nsfwfemdom
 ├❏ ${usedPrefix}nsfwglass 
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「*𝐓𝐎𝐎𝐋𝐒 𝐌𝐄𝐍𝐔*」
+┌──「𝐓𝐎𝐎𝐋𝐒 𝐌𝐄𝐍𝐔」
 ├❏ ${usedPrefix}afk <motivo
 ├❏ ${usedPrefix}acortar <enlace / link / url
 ├❏ ${usedPrefix}calc <operacion math
@@ -538,7 +533,7 @@ let str = `
 ├❏ ${usedPrefix}traducir <texto
 └────ׂ─ׂ─ׂ─ׂ───
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Lucky-Cv/luck, '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝐌𝐄𝐍𝐔', '/menu'],
 ['𝐄𝐒𝐓𝐀𝐃𝐎','/estado'],
 
@@ -555,7 +550,6 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(menúcompleto|menúcompleto\?)$/i
 handler.exp = 50
-handler.limit = 1
 handler.fail = null
 export default handler
 
