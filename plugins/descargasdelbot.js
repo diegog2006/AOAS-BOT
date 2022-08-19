@@ -60,29 +60,29 @@ readmore: readMore
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 let str = `
-┌─「💻𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑」
-├❏📑${usedPrefix}facebook <enlace / link / url
-├❏🗃️${usedPrefix}instagram <enlace / link / url
-├❏🗂️${usedPrefix}mediafire <enlace / link / url
-├❏📰${usedPrefix}instagram <enlace / link / url
-├❏📇${usedPrefix}gitclone <enlace / link / url
-├❏📑${usedPrefix}tiktok <enlace / link / url
-├❏🗃️${usedPrefix}ytmp3 <enlace / link / url
-├❏🗂️${usedPrefix}ytmp4 <enlace / link / url
-├❏📰${usedPrefix}play.1 <texto / enlace / link / url
-├❏📇${usedPrefix}play.2 <texto / enlace / link / url
-├❏📑${usedPrefix}play <texto
-├❏🗃️${usedPrefix}spotify <texto
-├❏🗂️${usedPrefix}imagen <texto
-├❏📰${usedPrefix}pinteret <texto
-├❏📇${usedPrefix}wallpaper <texto
-├❏📑${usedPrefix}wallpaper2 <texto
-├❏🗃️${usedPrefix}pptiktok <nombre de usuario
-├❏🗂️${usedPrefix}igstalk <nombre de usuario
-├❏📰${usedPrefix}tiktokstalk <nombre de usuario
+┌─「𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑」
+├❏ ${usedPrefix}facebook <enlace / link / url
+├❏ ${usedPrefix}instagram <enlace / link / url
+├❏ ${usedPrefix}mediafire <enlace / link / url
+├❏ ${usedPrefix}instagram <enlace / link / url
+├❏ ${usedPrefix}gitclone <enlace / link / url
+├❏ ${usedPrefix}tiktok <enlace / link / url
+├❏ ${usedPrefix}ytmp3 <enlace / link / url
+├❏ ${usedPrefix}ytmp4 <enlace / link / url
+├❏ ${usedPrefix}play.1 <texto / enlace / link / url
+├❏ ${usedPrefix}play.2 <texto / enlace / link / url
+├❏ ${usedPrefix}play <texto
+├❏ ${usedPrefix}spotify <texto
+├❏ ${usedPrefix}imagen <texto
+├❏ ${usedPrefix}pinteret <texto
+├❏ ${usedPrefix}wallpaper <texto
+├❏ ${usedPrefix}wallpaper2 <texto
+├❏ ${usedPrefix}pptiktok <nombre de usuario
+├❏ ${usedPrefix}igstalk <nombre de usuario
+├❏ ${usedPrefix}tiktokstalk <nombre de usuario
 └────ׂ─ׂ─ׂ─ׂ───
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Lucky-Cv/luck', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝐌𝐄𝐍𝐔', '/menu'],
 ['𝐄𝐒𝐓𝐀𝐃𝐎','/estado'],
 
@@ -98,7 +98,6 @@ throw e
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(descargasdelbot|Menudescargas \?)$/i
-handler.limit = 1
 handler.exp = 50
 handler.fail = null
 export default handler
