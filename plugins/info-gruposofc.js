@@ -1,4 +1,4 @@
-let media = 'https://i.imgur.com/NRv6b71.jpeg'
+/*let media = 'https://i.imgur.com/NRv6b71.jpeg'
 let handler = async (m, { conn, command }) => {
 let str = `
 ┌「☄️𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓🤖」
@@ -26,3 +26,4 @@ handler.command = /^linkgc|grupos|gruposgatabot|gatabotgrupos|gruposdegatabot|gr
 handler.exp = 33
 
 export default handler
+*/
