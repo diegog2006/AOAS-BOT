@@ -5,10 +5,9 @@ import { fileURLToPath } from 'url'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
 global.owner = [
-  ['34643694252', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
+  ['34643694252', '𝙻𝚞𝚌𝚔𝚢', true],
   ['34641614021'],
   ['19843334337'],
-  ['5212411453522'],
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -71,8 +70,8 @@ global.APIKeys = { // APIKey Here
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = 'Lucky ᵇᵒᵗ⁻ᴹᴰ'
-global.author = 'Lucky-Cv ᵇᵒᵗ⁻ᴹᴰ'
+global.packname = '𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ'
+global.author = '𝙻𝚞𝚌𝚔𝚢-𝙲𝚟 ᵇᵒᵗ⁻ᴹᴰ'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -82,7 +81,7 @@ global.author = 'Lucky-Cv ᵇᵒᵗ⁻ᴹᴰ'
 global.vs = '1.0.30'
 global.version = vs
 
-global.gt = 'Lucky ᵇᵒᵗ⁻ᴹᴰ'
+global.gt = '𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ'
 global.hadesbot = gt
 
 global.yt = 'https://youtu.be/aPu9wQi-z8U'
@@ -134,8 +133,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = 'LUCK | Lucky-Cv'
-global.igfg = 'lucky ᵇᵒᵗ⁻ᴹᴰ'
+global.wm = '𝙻𝚞𝚌𝚔 | L𝚞𝚌𝚔𝚢-𝙲𝚟'
+global.igfg = '𝚕𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./src/Menu2.jpg')
