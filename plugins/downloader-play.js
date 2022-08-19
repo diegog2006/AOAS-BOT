@@ -16,7 +16,7 @@ await conn.sendHydrated(m.chat, `
 ├❏➤͜͡⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
 ├❏➤͜͡👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
 ├❏➤͜͡🔗 *𝚄𝚁𝙻:* ${url}
-└────ׂ─ׂ─ׂ─ׂ───`.trim(), author, thumbnail, 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+└────ׂ─ׂ─ׂ─ׂ───`.trim(), author, thumbnail, 'https://github.com/Lucky-Cv/luck', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta ${url}`],
 ['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv ${url}`],
 ['𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒', `${usedPrefix}playlist ${text}`]  
@@ -29,5 +29,4 @@ handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
 handler.command = /^play2?$/i
 handler.exp = 20
-handler.limit = 1
 export default handler
