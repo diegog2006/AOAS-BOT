@@ -8,7 +8,7 @@ if (!args || !args[0]) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃
 await conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝚁𝙴𝙿𝚁𝙾𝙳𝚄𝙲𝚃𝙾𝚁 𝙳𝙴 𝙰𝚄𝙳𝙸𝙾 𝚅𝟸',
-body: '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ',
+body: '𓈃ּ 𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ',
 previewType: 0, thumbnail: fs.readFileSync("./src/admins.jpg"),
 sourceUrl: `https://github.com/Yovanihades1212/HADES-BOT-MDV2.git`}}})
 let chat = db.data.chats[m.chat]
@@ -34,6 +34,5 @@ lastError = e
 await conn.sendMessage(m.chat, { document: { url: link}, mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, {quoted: m})
 }
 handler.command = /^ytmp3doc|ytadoc|ytmp3.2|yta.2$/i
-handler.limit = 2
 handler.exp = 40
 export default handler
