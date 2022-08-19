@@ -25,7 +25,7 @@ audio = link = source = null
 lastError = e
 }}
 conn.sendFile(m.chat, source, title + '.mp3', `
-┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」
+┌「𓈃ּ 𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ」
 ├❏🔥𝚃𝙸𝚃𝚄𝙻𝙾: ${title}
 └────ׂ`.trim(), m, null, {
 asDocument: chat.useDocument
@@ -38,5 +38,4 @@ handler.help = ['mp3', 'a'].map(v => 'yt' + v + ` <url>`)
 handler.tags = ['downloader']
 handler.command = /^yt(a|mp3)$/i
 handler.exp = 35
-handler.limit = 2
 export default handler
