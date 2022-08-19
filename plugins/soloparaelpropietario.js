@@ -66,7 +66,7 @@ let str = `
 ├❏ 🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}
 ├❏ 📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}
 └────ׂ─ׂ─ׂ─ׂ───
-┌──「💎𝐎𝐖𝐍𝐄𝐑 𝐁𝐎𝐓」─
+┌──「𝐎𝐖𝐍𝐄𝐑 𝐁𝐎𝐓」─
 ├❏ ${usedPrefix}cajafuerte
 ├❏ ${usedPrefix}enable restrict
 ├❏ ${usedPrefix}disable restrict
@@ -94,7 +94,7 @@ let str = `
 ├❏ ${usedPrefix}añadirxp <@tag> <cantidad
 └────ׂ─ׂ─ׂ─ׂ───
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Lucky-Cv/luck', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝐌𝐄𝐍𝐔', '/menu'],
 ['𝐄𝐒𝐓𝐀𝐃𝐎','/estado'],
 
