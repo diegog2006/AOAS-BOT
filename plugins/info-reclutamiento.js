@@ -1,4 +1,4 @@
-import fs from 'fs'
+/*import fs from 'fs'
 function handler(m, { conn }) {
 let text = `
 ┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」
@@ -73,3 +73,4 @@ handler.tags = ['info']
 handler.command = /^(reclutamiento)$/i
 handler.limit = 1
 export default handler
+*/
