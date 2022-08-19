@@ -15,15 +15,15 @@ _muptime = await new Promise(resolve => { process.once('message', resolve)
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado =`
-┌──「🤖𝐄𝐒𝐓𝐀𝐃𝐎💖」─
-├❏๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}💖✨ 
+┌──「𝐄𝐒𝐓𝐀𝐃𝐎」─
+├❏๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ ${name}
 ├❏${gt}
-├❏💎VERSIÓN:${vs}🥀
+├❏VERSIÓN:${vs}
 ├❏🔋𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:${uptime}
-├❏✔️BOT ATIVO🏧
+├❏BOT ATIVO
 └────ׂ─ׂ─ׂ─ׂ───`.trim()
 
-conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, estado, wm, picture, 'https://github.com/Lucky-Cv/luck', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝐌𝐄𝐍𝐔', '.menu'],
 ['𝐆𝐑𝐔𝐏𝐎𝐒', '#grupos']
 ], m,)}
