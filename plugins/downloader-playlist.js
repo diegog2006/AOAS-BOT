@@ -25,7 +25,7 @@ orderMessage: {
 itemCount: 9999999,
 status: 1,
 surface: 1,
-message: '𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ', 
+message: '𓈃ּ 𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ', 
 orderTitle: `Mystic`,
 thumbnail: imagen1, 
 sellerJid: '0@s.whatsapp.net'}}}}
@@ -43,5 +43,4 @@ console.log(e)
 }}
 handler.command = /^playlist|playlist2$/i
 handler.exp = 35
-handler.limit = 1
 export default handler
