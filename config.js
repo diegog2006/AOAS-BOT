@@ -90,7 +90,7 @@ global.youtube = yt
 global.ig = 'https://www.instagram'
 global.hadesig = ig
 
-global.md = 'https://github.com/Yovanihades1212/HADES-BOT-MDV2.git'
+global.md = 'https://github.com/Lucky-Cv/luck'
 global.hadesbot = md
 
 global.nn = 'https://chat.whatsapp.com/'
