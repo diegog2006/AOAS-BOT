@@ -5,7 +5,7 @@ const { video, channel } = await youtubeSearch(text)
 let teks = [...video, ...channel].map(v => {
 switch (v.type) {
 case 'video': return `
-┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」
+┌「𓈃ּ 𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ」
 ├❏✨ *${v.title}* 
 ├❏🎈 (${v.url})
 ├❏⏳ *Duración:* ${v.durationH}
@@ -13,7 +13,7 @@ case 'video': return `
 ├❏👀 *Vistas:* ${v.view} 
 └────ׂ─ׂ─ׂ─ׂ───`.trim()
       case 'channel': return `
-┌「𓈃ּ ៹🍏𝑯𝒂𝒅𝒆𝒔𐂂!s⁹⁷☻‹𝟹♞ᵇᵒᵗ⁻ᴹᴰ」
+┌「𓈃ּ 𝙻𝚞𝚌𝚔𝚢ᵇᵒᵗ⁻ᴹᴰ」
 ├❏✨ *${v.channelName}* 
 ├❏(${v.url})
 ├❏👥 *Subscriptores:* ${v.subscriberH} 
@@ -35,5 +35,4 @@ handler.help = ['', 'earch'].map(v => 'yts' + v + ' <pencarian>')
 handler.tags = ['tools']
 handler.command = /^ytbuscar|yts(earch)?$/i
 handler.exp = 70
-handler.limit = 2
 export default handler
