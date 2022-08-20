@@ -72,7 +72,7 @@ if (command == 'multijuegos') {
               
 
  const templateButtonsReplyMessage = [
-{index: 2, urlButton: {displayText: '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏:', url: 'https://wa.me/message/HYYXLPXK6E2CE1'}},
+{index: 2, urlButton: {displayText: '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏:', url: 'https://chat.whatsapp.com/EaiD471QQfm7n5ud6dSY5z'}},
 {index: 3, quickReplyButton: {displayText: '𝐌𝐄𝐍𝐔', id: '.menu'}},
 {index: 4, quickReplyButton: {displayText: '𝐄𝐒𝐓𝐀𝐃𝐎', id: '/estado'}},
 {index: 5, quickReplyButton: {displayText: '𝐆𝐑𝐔𝐏𝐎𝐒 ️', id: '#grupos'}},
@@ -102,7 +102,7 @@ conn.sendMessage(m.chat, t, m)
               let ss = await `❍͜͡➣𝙻𝚄𝙲𝙺-𝙱𝙾𝚃-𝙼𝙳❍͜͡➣|VALENCIA `
 
  const templateButtonsReplyMessage = [
-{index: 2, urlButton: {displayText: '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏:', url: 'https://wa.me/message/HYYXLPXK6E2CE1'}},
+{index: 2, urlButton: {displayText: '𝐆𝐑𝐔𝐏𝐎 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏:', url: 'https://chat.whatsapp.com/EaiD471QQfm7n5ud6dSY5z'}},
 {index: 3, quickReplyButton: {displayText: '𝐌𝐄𝐍𝐔', id: '.menu'}},
 {index: 4, quickReplyButton: {displayText: '𝐄𝐒𝐓𝐀𝐃𝐎', id: '/estado'}},
 {index: 5, quickReplyButton: {displayText: '𝐆𝐑𝐔𝐏𝐎𝐒 ️', id: '#grupos'}},
@@ -131,7 +131,7 @@ conn.sendMessage(m.chat, tt, m)
            let sss = await `❍͜͡➣𝙻𝚄𝙲𝙺-𝙱𝙾𝚃-𝙼𝙳❍͜͡➣|VALENCIA `
 
  const templateButtonsReplyMessage = [
-{index: 2, urlButton: {displayText: '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏:', url: 'https://wa.me/message/HYYXLPXK6E2CE1'}},
+{index: 2, urlButton: {displayText: '𝐆𝐑𝐔𝐏𝐎 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏:', url: 'https://chat.whatsapp.com/EaiD471QQfm7n5ud6dSY5z'}},
 {index: 3, quickReplyButton: {displayText: '𝐌𝐄𝐍𝐔', id: '.menu'}},
 {index: 4, quickReplyButton: {displayText: '𝐄𝐒𝐓𝐀𝐃𝐎', id: '/estado'}},
 {index: 5, quickReplyButton: {displayText: '𝐆𝐑𝐔𝐏𝐎𝐒 ️', id: '#grupos'}},
