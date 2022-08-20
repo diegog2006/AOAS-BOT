@@ -12,7 +12,7 @@ let pre = `
 ├❏${vs}
 └────ׂ─ׂ─ׂ─ׂ──`.trim() 
 
-conn.sendHydrated(m.chat, pre, wm, null, md, '❍͜͡➣𝐇𝐀𝐃𝐄𝐒_𝐁𝐎𝐓_𝐌𝐃❍͜͡➣', null, null, [
+conn.sendHydrated(m.chat, pre, wm, null, md, '❍͜͡➣𝙻𝚄𝙲𝙺-𝙱𝙾𝚃-𝙼𝙳❍͜͡➣', null, null, [
 ['𝐎𝐓𝐑𝐀 𝐕𝐄𝐙🧐🔮', `${usedPrefix + command} ${text}`],
 ], m, null, m.mentionedJid ? {
 mentions: m.mentionedJid
