@@ -1,4 +1,4 @@
-# **💥LUCKY💥**
+# **💥MAMAGUEVOOOO💥**
 
 ## El bot terminado 
 
@@ -15,7 +15,7 @@
 • pkg install ffmpeg -y
 • pkg install imagemagick -y
 • termux-setup-storage
-• git clone https://github.com/Lucky-Cv/lucky
+• git clone https://github.com/diegog2006/AOAS-BOT
 • cd lucky
 • npm install
 • pkg install yarn
@@ -53,5 +53,5 @@ excesivamente lento (depende del
 
 
 
-`"LUCKY-MD"` 
+`"AOAS-BOT"´
 ```
