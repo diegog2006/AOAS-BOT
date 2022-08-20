@@ -687,7 +687,7 @@ contextInfo: {
 "mediaType": 2, 
 "previewType": "VIDEO",
 "thumbnail": apii.data,
-"mediaUrl": 'https://youtu.be/HoxZuQokeMM',
+"mediaUrl": 'https://youtu.be/',
 "sourceUrl": 'https://www.pornhub.com' }}} 
 this.sendMessage(id, buttonMessage, fake)                          
 }}}
