@@ -5,14 +5,12 @@ import { fileURLToPath } from 'url'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
 global.owner = [
-  ['34643694252', '𝙻𝚞𝚌𝚔𝚢', true],
-  ['34641614021'],
-  ['19843334337'],
+  ['+584128368171] AOAS-FB,
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = [] 
-global.prems = ['34643694252'], 
+global.prems = ['+584128368171']
 global.prems = [] 
 global.APIs = { // API Prefix.
   
@@ -70,8 +68,8 @@ global.APIKeys = { // APIKey Here
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ'
-global.author = '𝙻𝚞𝚌𝚔𝚢-𝙲𝚟 ᵇᵒᵗ⁻ᴹᴰ'
+global.packname = 'AOAS-BOT'
+global.author = 'AOAS-FB'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -81,7 +79,7 @@ global.author = '𝙻𝚞𝚌𝚔𝚢-𝙲𝚟 ᵇᵒᵗ⁻ᴹᴰ'
 global.vs = '1.0.30'
 global.version = vs
 
-global.gt = '𝙻𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ'
+global.gt = 'AOAS-BOT'
 global.hadesbot = gt
 
 global.yt = 'https://youtu.be/aPu9wQi-z8U'
@@ -133,8 +131,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙻𝚞𝚌𝚔 | L𝚞𝚌𝚔𝚢-𝙲𝚟'
-global.igfg = '𝚕𝚞𝚌𝚔𝚢 ᵇᵒᵗ⁻ᴹᴰ'
+global.wm = 'AOAS-BOT'
+global.igfg = 'AOAS-BOT'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./src/Menu2.jpg')
